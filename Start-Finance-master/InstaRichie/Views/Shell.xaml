@@ -86,6 +86,18 @@
                 </StackPanel>
             </Controls:HamburgerButtonInfo>
 
+            <!-- Person button  -->
+            <Controls:HamburgerButtonInfo ClearHistory="True" PageType="views:PersonalInfo" 
+                                          AutomationProperties.Name="Jerry"
+                                          >
+                <StackPanel Orientation="Horizontal">
+                    <SymbolIcon Width="48" Height="48"
+                		Symbol="People" />
+                    <TextBlock Margin="12,0,0,0" VerticalAlignment="Center"
+                               Text="Person" />
+                </StackPanel>
+            </Controls:HamburgerButtonInfo>
+
 
             <!--  Wish List button  -->
             <Controls:HamburgerButtonInfo ClearHistory="True" PageType="views:WishListPage" 
@@ -98,7 +110,19 @@
                                Text="WishList" />
                 </StackPanel>
             </Controls:HamburgerButtonInfo>
+            
+            <Controls:HamburgerButtonInfo ClearHistory="True" PageType="views:PersonalInfo" 
+                                          AutomationProperties.Name="Jerry"
+                                          >
+                <StackPanel Orientation="Horizontal">
+                    <SymbolIcon Width="48" Height="48"
+                		Symbol="Bullets" />
+                    <TextBlock Margin="12,0,0,0" VerticalAlignment="Center"
+                               Text="Personal Info" />
+                </StackPanel>
+            </Controls:HamburgerButtonInfo>
         </Controls:HamburgerMenu.PrimaryButtons>
+
 
         <Controls:HamburgerMenu.SecondaryButtons>
             <!--  settingspage button  -->
